@@ -2,7 +2,6 @@ import base64
 from time import gmtime, strftime
 from accounts import accounts
 import json, boto3,os, sys, uuid
-from urllib.parse import unquote_plus
 
 s3_client = boto3.client('s3')
 # create a DynamoDB object using the AWS SDK
